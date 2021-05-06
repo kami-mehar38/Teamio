@@ -104,6 +104,7 @@ struct RoundedTextField: View {
         .keyboardType(.emailAddress)
         .background(Color.white)
         .cornerRadius(40)
+        .disableAutocorrection(true)
         .overlay(
             RoundedRectangle(cornerRadius: 40)
                 .stroke(Color.init(hex: "#4F4F4F"), lineWidth: 0.25)).padding(.horizontal)

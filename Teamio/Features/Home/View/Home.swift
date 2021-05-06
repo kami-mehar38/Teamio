@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import FirebaseAuth
 
 struct Home: View {
     /// It is an ObjsevedPbject property wrapper which is used to Observe any 'Obseved' object
@@ -53,12 +54,30 @@ struct Home: View {
                             .keyboardType(.emailAddress)
                             .background(Color.init(hex: "#E7ECF0"))
                             .cornerRadius(40)
+                        Button(action: {
+                            self.addPost()
+                        }) {
+                            Text("Send")
+                                .fontWeight(.semibold)
+                                .font(.custom("Hellix-SemiBold", size: 12))
+                                .padding(.horizontal, 8)
+                                .padding(.vertical, 4)
+                                .foregroundColor(.white)
+                                .background(LinearGradient(gradient: Gradient(colors: [.init(hex: "#6FCDD6"), .init(hex: "#3CB187")]), startPoint: .topTrailing, endPoint: .bottomLeading))
+                                .cornerRadius(40)
+                        }
                     }.padding(.horizontal, 16)
                 }
             }
         }.onAppear() {
             self.postsViewModel.get()
         }.navigationBarHidden(true)
+    }
+    
+    func addPost() {
+        if !tweet.isEmpty {
+            postsViewModel.add(tweet)
+        }
     }
 }
 

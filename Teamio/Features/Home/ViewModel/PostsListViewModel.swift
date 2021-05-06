@@ -31,12 +31,19 @@ class PostsListViewModel: ObservableObject {
                 let name = data["name"] as? String ?? ""
                 let post = data["post"] as? String ?? ""
                 let id = data["id"] as? String ?? ""
-                print("POST NAME \(data["name"])")
+                print("POST NAME \(String(describing: data["name"]))")
                 return Post(id: id, date: "asd", name: name, post: post)
             }
         }
     }
-    func add(_ post: Post) {
+    func add(_ post: String) {
         
+        
+        let ref = store.collection(path)
+        let docId = ref.document().documentID
+        
+        let data: [String: Any] = ["id": docId, "name": "Kamran Ramzan", "post": post]
+        
+        ref.addDocument(data: data)
     }
 }
