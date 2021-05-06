@@ -28,7 +28,7 @@ struct Home: View {
                 VStack {
                     HStack {
                         
-                        Image("ic_teamio")
+                        Image("ic_teamio_small")
                     }.padding(.top, 16)
                     
                     /// Top space line
