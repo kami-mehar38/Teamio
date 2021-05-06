@@ -6,12 +6,19 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct TeamioApp: App {
+    
+    init() {
+        /// initialization of Firebase
+        FirebaseApp.configure()
+    }
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            
+            Login().preferredColorScheme(.light).environmentObject(AuthViewModel())
         }
     }
 }

@@ -3,16 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77ABF92ADE187EC2B4018AF9 /* Pods_TeamioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9835984AFEC8F2E7B08BDE99 /* Pods_TeamioTests.framework */; };
 		A8E71B1D2642FFC9002B7EB2 /* TeamioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E71B1C2642FFC9002B7EB2 /* TeamioApp.swift */; };
-		A8E71B1F2642FFC9002B7EB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E71B1E2642FFC9002B7EB2 /* ContentView.swift */; };
 		A8E71B212642FFCC002B7EB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8E71B202642FFCC002B7EB2 /* Assets.xcassets */; };
 		A8E71B242642FFCC002B7EB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8E71B232642FFCC002B7EB2 /* Preview Assets.xcassets */; };
 		A8E71B2F2642FFCC002B7EB2 /* TeamioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E71B2E2642FFCC002B7EB2 /* TeamioTests.swift */; };
 		A8E71B3A2642FFCC002B7EB2 /* TeamioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E71B392642FFCC002B7EB2 /* TeamioUITests.swift */; };
+		A8E71B4D26430038002B7EB2 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E71B4C26430038002B7EB2 /* Login.swift */; };
+		A8E71B50264304CA002B7EB2 /* TextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E71B4F264304CA002B7EB2 /* TextFieldStyle.swift */; };
+		A8E71B532643075A002B7EB2 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E71B522643075A002B7EB2 /* Extension+UIColor.swift */; };
+		A8E71B5726431527002B7EB2 /* Hellix-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8E71B55264309D8002B7EB2 /* Hellix-Regular.ttf */; };
+		A8E71B582643152B002B7EB2 /* Hellix-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8E71B5626431168002B7EB2 /* Hellix-SemiBold.ttf */; };
+		A8E71B5E26431952002B7EB2 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E71B5D26431952002B7EB2 /* SignUp.swift */; };
+		A8E71B6026431B3D002B7EB2 /* Hellix-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8E71B5F26431B3D002B7EB2 /* Hellix-Bold.ttf */; };
+		A8E71B622643C89B002B7EB2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8E71B612643C89B002B7EB2 /* GoogleService-Info.plist */; };
+		A8E71B6B2643CD19002B7EB2 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E71B6A2643CD19002B7EB2 /* Post.swift */; };
+		A8E71B6F2643CEDF002B7EB2 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E71B6E2643CEDF002B7EB2 /* Home.swift */; };
+		A8E71B712643D1AA002B7EB2 /* PostsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E71B702643D1AA002B7EB2 /* PostsListViewModel.swift */; };
+		A8E71B752643EDA5002B7EB2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E71B742643EDA5002B7EB2 /* User.swift */; };
+		A8E71B782643EDD4002B7EB2 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E71B772643EDD4002B7EB2 /* ViewModel.swift */; };
+		C6E9D1662759D0DD7B84DC3F /* Pods_Teamio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C48301D373E3F70438E1D20 /* Pods_Teamio.framework */; };
+		CC1EDDCCE6CF01DCA2893B9A /* Pods_Teamio_TeamioUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8E0599DA5ADF6E2BAC18078 /* Pods_Teamio_TeamioUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +48,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0880F515F44A2A850EF4144D /* Pods-Teamio-TeamioUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teamio-TeamioUITests.debug.xcconfig"; path = "Target Support Files/Pods-Teamio-TeamioUITests/Pods-Teamio-TeamioUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		48E1956464145C8FEF2F1421 /* Pods-Teamio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teamio.release.xcconfig"; path = "Target Support Files/Pods-Teamio/Pods-Teamio.release.xcconfig"; sourceTree = "<group>"; };
+		5CBACEE94D3AFADE298CBC5E /* Pods-TeamioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamioTests.debug.xcconfig"; path = "Target Support Files/Pods-TeamioTests/Pods-TeamioTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C48301D373E3F70438E1D20 /* Pods_Teamio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teamio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9835984AFEC8F2E7B08BDE99 /* Pods_TeamioTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeamioTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E71B192642FFC9002B7EB2 /* Teamio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teamio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E71B1C2642FFC9002B7EB2 /* TeamioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamioApp.swift; sourceTree = "<group>"; };
-		A8E71B1E2642FFC9002B7EB2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A8E71B202642FFCC002B7EB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8E71B232642FFCC002B7EB2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A8E71B252642FFCC002B7EB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +64,23 @@
 		A8E71B352642FFCC002B7EB2 /* TeamioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeamioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E71B392642FFCC002B7EB2 /* TeamioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamioUITests.swift; sourceTree = "<group>"; };
 		A8E71B3B2642FFCC002B7EB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8E71B4C26430038002B7EB2 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		A8E71B4F264304CA002B7EB2 /* TextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldStyle.swift; sourceTree = "<group>"; };
+		A8E71B522643075A002B7EB2 /* Extension+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIColor.swift"; sourceTree = "<group>"; };
+		A8E71B55264309D8002B7EB2 /* Hellix-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hellix-Regular.ttf"; sourceTree = "<group>"; };
+		A8E71B5626431168002B7EB2 /* Hellix-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hellix-SemiBold.ttf"; sourceTree = "<group>"; };
+		A8E71B5D26431952002B7EB2 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		A8E71B5F26431B3D002B7EB2 /* Hellix-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hellix-Bold.ttf"; sourceTree = "<group>"; };
+		A8E71B612643C89B002B7EB2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A8E71B6A2643CD19002B7EB2 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		A8E71B6E2643CEDF002B7EB2 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		A8E71B702643D1AA002B7EB2 /* PostsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsListViewModel.swift; sourceTree = "<group>"; };
+		A8E71B742643EDA5002B7EB2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A8E71B772643EDD4002B7EB2 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		BE375F305D5F5B32F1DD8BFB /* Pods-TeamioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamioTests.release.xcconfig"; path = "Target Support Files/Pods-TeamioTests/Pods-TeamioTests.release.xcconfig"; sourceTree = "<group>"; };
+		C15ECF826418646A8E00D9DA /* Pods-Teamio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teamio.debug.xcconfig"; path = "Target Support Files/Pods-Teamio/Pods-Teamio.debug.xcconfig"; sourceTree = "<group>"; };
+		C8E0599DA5ADF6E2BAC18078 /* Pods_Teamio_TeamioUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teamio_TeamioUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA44E814565863A2094A2C12 /* Pods-Teamio-TeamioUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teamio-TeamioUITests.release.xcconfig"; path = "Target Support Files/Pods-Teamio-TeamioUITests/Pods-Teamio-TeamioUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6E9D1662759D0DD7B84DC3F /* Pods_Teamio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77ABF92ADE187EC2B4018AF9 /* Pods_TeamioTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +104,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC1EDDCCE6CF01DCA2893B9A /* Pods_Teamio_TeamioUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60B30955D78798EE8CFE4DAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C15ECF826418646A8E00D9DA /* Pods-Teamio.debug.xcconfig */,
+				48E1956464145C8FEF2F1421 /* Pods-Teamio.release.xcconfig */,
+				0880F515F44A2A850EF4144D /* Pods-Teamio-TeamioUITests.debug.xcconfig */,
+				EA44E814565863A2094A2C12 /* Pods-Teamio-TeamioUITests.release.xcconfig */,
+				5CBACEE94D3AFADE298CBC5E /* Pods-TeamioTests.debug.xcconfig */,
+				BE375F305D5F5B32F1DD8BFB /* Pods-TeamioTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A8E71B102642FFC9002B7EB2 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +131,8 @@
 				A8E71B2D2642FFCC002B7EB2 /* TeamioTests */,
 				A8E71B382642FFCC002B7EB2 /* TeamioUITests */,
 				A8E71B1A2642FFC9002B7EB2 /* Products */,
+				60B30955D78798EE8CFE4DAC /* Pods */,
+				CFD6B048372C96A8066160D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,10 +149,14 @@
 		A8E71B1B2642FFC9002B7EB2 /* Teamio */ = {
 			isa = PBXGroup;
 			children = (
+				A8E71B5426430944002B7EB2 /* Fonts */,
+				A8E71B5126430744002B7EB2 /* Extension */,
+				A8E71B4E264304B4002B7EB2 /* CustomStyles */,
+				A8E71B472642FFF0002B7EB2 /* Features */,
 				A8E71B1C2642FFC9002B7EB2 /* TeamioApp.swift */,
-				A8E71B1E2642FFC9002B7EB2 /* ContentView.swift */,
 				A8E71B202642FFCC002B7EB2 /* Assets.xcassets */,
 				A8E71B252642FFCC002B7EB2 /* Info.plist */,
+				A8E71B612643C89B002B7EB2 /* GoogleService-Info.plist */,
 				A8E71B222642FFCC002B7EB2 /* Preview Content */,
 			);
 			path = Teamio;
@@ -130,6 +188,136 @@
 			path = TeamioUITests;
 			sourceTree = "<group>";
 		};
+		A8E71B472642FFF0002B7EB2 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				A8E71B632643CAC7002B7EB2 /* Home */,
+				A8E71B5926431927002B7EB2 /* SignUp */,
+				A8E71B482642FFFE002B7EB2 /* Login */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		A8E71B482642FFFE002B7EB2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A8E71B732643ED99002B7EB2 /* Model */,
+				A8E71B722643EB4F002B7EB2 /* ViewModel */,
+				A8E71B492643000C002B7EB2 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A8E71B492643000C002B7EB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A8E71B4C26430038002B7EB2 /* Login.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A8E71B4E264304B4002B7EB2 /* CustomStyles */ = {
+			isa = PBXGroup;
+			children = (
+				A8E71B4F264304CA002B7EB2 /* TextFieldStyle.swift */,
+			);
+			path = CustomStyles;
+			sourceTree = "<group>";
+		};
+		A8E71B5126430744002B7EB2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A8E71B522643075A002B7EB2 /* Extension+UIColor.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A8E71B5426430944002B7EB2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A8E71B5F26431B3D002B7EB2 /* Hellix-Bold.ttf */,
+				A8E71B55264309D8002B7EB2 /* Hellix-Regular.ttf */,
+				A8E71B5626431168002B7EB2 /* Hellix-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A8E71B5926431927002B7EB2 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				A8E71B5C2643193E002B7EB2 /* Views */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		A8E71B5C2643193E002B7EB2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A8E71B5D26431952002B7EB2 /* SignUp.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A8E71B632643CAC7002B7EB2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A8E71B662643CAF4002B7EB2 /* ViewModel */,
+				A8E71B652643CAEB002B7EB2 /* Model */,
+				A8E71B642643CACD002B7EB2 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A8E71B642643CACD002B7EB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A8E71B6E2643CEDF002B7EB2 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A8E71B652643CAEB002B7EB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A8E71B6A2643CD19002B7EB2 /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8E71B662643CAF4002B7EB2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A8E71B702643D1AA002B7EB2 /* PostsListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A8E71B722643EB4F002B7EB2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A8E71B772643EDD4002B7EB2 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A8E71B732643ED99002B7EB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A8E71B742643EDA5002B7EB2 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CFD6B048372C96A8066160D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C48301D373E3F70438E1D20 /* Pods_Teamio.framework */,
+				C8E0599DA5ADF6E2BAC18078 /* Pods_Teamio_TeamioUITests.framework */,
+				9835984AFEC8F2E7B08BDE99 /* Pods_TeamioTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +325,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8E71B3E2642FFCC002B7EB2 /* Build configuration list for PBXNativeTarget "Teamio" */;
 			buildPhases = (
+				9A5656033A97F52D59A28846 /* [CP] Check Pods Manifest.lock */,
 				A8E71B152642FFC9002B7EB2 /* Sources */,
 				A8E71B162642FFC9002B7EB2 /* Frameworks */,
 				A8E71B172642FFC9002B7EB2 /* Resources */,
+				2FA5138E3BC3C21F909EFC0B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +344,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8E71B412642FFCC002B7EB2 /* Build configuration list for PBXNativeTarget "TeamioTests" */;
 			buildPhases = (
+				58550DF36B7A45165262B1E6 /* [CP] Check Pods Manifest.lock */,
 				A8E71B262642FFCC002B7EB2 /* Sources */,
 				A8E71B272642FFCC002B7EB2 /* Frameworks */,
 				A8E71B282642FFCC002B7EB2 /* Resources */,
@@ -172,9 +363,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8E71B442642FFCC002B7EB2 /* Build configuration list for PBXNativeTarget "TeamioUITests" */;
 			buildPhases = (
+				FA3D0B2A7DD3CCEAD8BC919B /* [CP] Check Pods Manifest.lock */,
 				A8E71B312642FFCC002B7EB2 /* Sources */,
 				A8E71B322642FFCC002B7EB2 /* Frameworks */,
 				A8E71B332642FFCC002B7EB2 /* Resources */,
+				8F4330863947660596B89758 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +426,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8E71B6026431B3D002B7EB2 /* Hellix-Bold.ttf in Resources */,
+				A8E71B622643C89B002B7EB2 /* GoogleService-Info.plist in Resources */,
 				A8E71B242642FFCC002B7EB2 /* Preview Assets.xcassets in Resources */,
+				A8E71B582643152B002B7EB2 /* Hellix-SemiBold.ttf in Resources */,
+				A8E71B5726431527002B7EB2 /* Hellix-Regular.ttf in Resources */,
 				A8E71B212642FFCC002B7EB2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +451,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2FA5138E3BC3C21F909EFC0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Teamio/Pods-Teamio-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Teamio/Pods-Teamio-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Teamio/Pods-Teamio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58550DF36B7A45165262B1E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeamioTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F4330863947660596B89758 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Teamio-TeamioUITests/Pods-Teamio-TeamioUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Teamio-TeamioUITests/Pods-Teamio-TeamioUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Teamio-TeamioUITests/Pods-Teamio-TeamioUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A5656033A97F52D59A28846 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Teamio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA3D0B2A7DD3CCEAD8BC919B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Teamio-TeamioUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A8E71B152642FFC9002B7EB2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8E71B1F2642FFC9002B7EB2 /* ContentView.swift in Sources */,
+				A8E71B50264304CA002B7EB2 /* TextFieldStyle.swift in Sources */,
+				A8E71B4D26430038002B7EB2 /* Login.swift in Sources */,
 				A8E71B1D2642FFC9002B7EB2 /* TeamioApp.swift in Sources */,
+				A8E71B6F2643CEDF002B7EB2 /* Home.swift in Sources */,
+				A8E71B712643D1AA002B7EB2 /* PostsListViewModel.swift in Sources */,
+				A8E71B752643EDA5002B7EB2 /* User.swift in Sources */,
+				A8E71B532643075A002B7EB2 /* Extension+UIColor.swift in Sources */,
+				A8E71B6B2643CD19002B7EB2 /* Post.swift in Sources */,
+				A8E71B5E26431952002B7EB2 /* SignUp.swift in Sources */,
+				A8E71B782643EDD4002B7EB2 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,12 +722,13 @@
 		};
 		A8E71B3F2642FFCC002B7EB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C15ECF826418646A8E00D9DA /* Pods-Teamio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Teamio/Preview Content\"";
-				DEVELOPMENT_TEAM = YN9864RCHF;
+				DEVELOPMENT_TEAM = BW23VJ3L4M;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Teamio/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -436,12 +745,13 @@
 		};
 		A8E71B402642FFCC002B7EB2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48E1956464145C8FEF2F1421 /* Pods-Teamio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Teamio/Preview Content\"";
-				DEVELOPMENT_TEAM = YN9864RCHF;
+				DEVELOPMENT_TEAM = BW23VJ3L4M;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Teamio/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -458,6 +768,7 @@
 		};
 		A8E71B422642FFCC002B7EB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CBACEE94D3AFADE298CBC5E /* Pods-TeamioTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +791,7 @@
 		};
 		A8E71B432642FFCC002B7EB2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE375F305D5F5B32F1DD8BFB /* Pods-TeamioTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +814,7 @@
 		};
 		A8E71B452642FFCC002B7EB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0880F515F44A2A850EF4144D /* Pods-Teamio-TeamioUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +835,7 @@
 		};
 		A8E71B462642FFCC002B7EB2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA44E814565863A2094A2C12 /* Pods-Teamio-TeamioUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
