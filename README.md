@@ -1,6 +1,11 @@
 # Teamio
+
+[Kamran Ramzan Medium Profile](https://medium.com/@kamranramzan098)
+
 Teamio is an assignment application to acquire information about the develper's capabilities and programming practice. 
 
+## Note
+**Due to time constraint couldn't complete the UI part**
 ## Following Resources are used in the app:
 - Firebase Friestore
 - Firebase Authentication
